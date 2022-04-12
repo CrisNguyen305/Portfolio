@@ -1,0 +1,41 @@
+.home{
+    display: grid;
+    width: fit-content;
+    height: 800px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 125px;
+    margin-left: 15%;
+}
+
+.myname{
+    color: #54D9BD;
+    font-family: 'Fira Mono', monospace;
+    font-size: 18px;
+}
+
+.name{
+    color: #CCD6F6;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+}
+
+.whatido{
+    color: #8892B0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 60px;
+}
+
+.img{
+    margin-left: 50px;
+}
+
+.describe{
+    color: #8892B0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.name , .whatido , .myname {
+    margin-bottom: 5px;
+}

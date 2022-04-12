@@ -1,0 +1,21 @@
+.sidebar{
+    height: 95vh;
+    width: 50px;
+    background-color: transparent;
+    margin-left: 80px;
+    margin-top: 450px;
+    position: fixed;
+    font-size: 32px;
+}
+
+#fb , #ig , #linked , #git{
+    color: #A8B2D1;
+    text-decoration: none;
+    margin-top: 30px;
+    transition-duration: 0.5s;
+}
+
+#fb:hover , #ig:hover , #linked:hover , #git:hover{
+    transform: scale(1.3);
+    color:  #0cebc9;
+}
