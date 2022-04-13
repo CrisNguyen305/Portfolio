@@ -4,7 +4,7 @@ import photo from  "../../photo/IMG_6759.jpg"
 
 function About() {
     return (
-        <div className="about">
+        <div id="about">
             <h1 class="aboutText">About me</h1>
             <div class="aboutGrid">
                 <div class="describeAboutme">

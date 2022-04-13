@@ -14,3 +14,10 @@
 /* .App {
   width: 100%;
 } */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  /* background-color: transparent; */
+  /* display: flex; */
+}

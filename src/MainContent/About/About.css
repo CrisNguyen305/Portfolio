@@ -37,7 +37,11 @@
     /* list-style-image: url(./Coding-icon.png); */
     /* background-size: 20px; */
 }
-.about {
+
+#about {
+    margin-top: 100px;
     width: 100%;
     height: 100vh;
 }
+
+
