@@ -4,6 +4,7 @@ import NavBar from './navigation bar/NavBar';
 import SideBar from './side bar/SideBar';
 import Home from './MainContent/Home/Home';
 import About from './MainContent/About/About';
+import Contact from './MainContent/Contact/Contact';
 import { BrowserRouter, Route , Routes} from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <SideBar></SideBar>
         <Home></Home>
         <About></About>
+        <Contact></Contact>
         {/* <About></About> */}
         {/* <Routes>
           <Route path='/' element={<Home></Home>} />

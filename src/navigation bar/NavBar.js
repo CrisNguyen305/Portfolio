@@ -37,13 +37,35 @@ function NavBar() {
                     </Link>
                 </li>
                 <li className="nav_items">
-                    <Link smooth to={"/about"}>Experience</Link>
+                    <Link 
+                        className='nav_items'
+                        activeClass="active"
+                        to={""}
+                        spy={true}
+                        smooth={true}
+                        offset={-80}
+                        duration={500}
+                        key={1}
+                    >
+                        Experience
+                    </Link>
                 </li>
                 <li className="nav_items">
                     <Link smooth to={"/about"}>Work</Link>
                 </li>
                 <li className="nav_items">
-                    <Link smooth to={"/about"}>Contact me</Link>
+                    <Link 
+                        className='nav_items'
+                        activeClass="active"
+                        to={"contact"}
+                        spy={true}
+                        smooth={true}
+                        offset={-200}
+                        duration={500}
+                        key={1}
+                    >
+                        Contact me
+                    </Link>
                 </li>
 
                 <a href={Pdf} target="_blank">
