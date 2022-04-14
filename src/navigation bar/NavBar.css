@@ -1,5 +1,6 @@
 * {
-    color: #43AC9C;
+    /* color: #43AC9C; */
+    color: #CCD6F6;
     /* background-color: transparent; */
 } 
 .header{
@@ -20,22 +21,29 @@
     transition-duration: 0.35s;
 }
 
-.header_left a {
+.header_left a{
     text-decoration: none;
+    color: #43AC9C;
+    transition-duration: 0.45s;
 }
 
-.header_right{
+.header_right {
     font-family: 'Secular One', sans-serif;
     font-size: 18px;
     width: fit-content;
     margin-left: 300px;
 }
 
+.header_right .nav_items {
+    list-style: none;
+    display: inline-block;    
+}
+
 .header_right a {
     text-decoration: none;
     font-style: italic;
     margin-left: 50px;
-    transition-duration: 0.35s;
+    transition-duration: 0.45s;
 }
 
 .navigation_bar_resume {
@@ -45,6 +53,7 @@
 .header_left:hover , a:hover{
     color: #0cebc9;
     cursor: pointer;
+    
 }
 
 .navigation_bar_resume{
@@ -63,8 +72,7 @@
     background-color: #57beaf;
     cursor: pointer;
 }
-
-.active {
+.header_left .active , .active{
     color: #0cebc9;
 }
 
