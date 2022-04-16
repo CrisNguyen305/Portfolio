@@ -30,7 +30,7 @@ function NavBar() {
                         spy={true}
                         smooth={true}
                         offset={-80}
-                        duration={500}
+                        duration={800}
                         key={1}
                     >
                         About
@@ -61,7 +61,7 @@ function NavBar() {
                         spy={true}
                         smooth={true}
                         offset={-180}
-                        duration={500}
+                        duration={800}
                         key={1}
                     >
                         Contact me

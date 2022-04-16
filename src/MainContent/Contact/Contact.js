@@ -11,7 +11,7 @@ function Contact() {
                 <div className="textContainer">
                     <p className="greetingText">
                         I'm currently looking for opportunities, my inbox is always open.
-                        Whether you want to so hi to me, I'll try my best to get back to you very soon!
+                        If you have request or any question, don’t hesitate to use the form. I'll try my best to get back to you very soon!
                     </p>
                     <ul>
                         <li>
@@ -23,7 +23,14 @@ function Contact() {
                     </ul>
                 </div>
                 <div className="formContainer">
-
+                    <form action="">
+                        {/* <label htmlFor="name">Name</label> */}
+                        <input type="text" placeholder="Name" className="inputName" />
+                        <input type="text" placeholder="Email" className="inputEmail"/>
+                        <input type="text" placeholder="Subject" className="inputSubject"/>
+                        <input type="text" placeholder="Message" className="inputMessage"/>
+                        <button className="sendMessage">Send Message</button>
+                    </form>
                 </div>
             </div>
         </div>

@@ -22,9 +22,8 @@
 }
 
 .contact .textContainer {
-    
+    height: fit-content;
     width: 80%;
-    /* margin-top: 150px; */
     margin: 50px 5% 0 5%;
     line-height: 30px;
     font-family: 'Nunito', sans-serif;
@@ -35,6 +34,7 @@
 
 .greetingText {
     color: #8892B0;
+    margin-bottom: 35px;
 }
 
 .textContainer li {
@@ -57,6 +57,59 @@ li .icon {
     vertical-align: middle;
     /* align-items: center; */
 }
+
+.inputEmail , .inputMessage , .inputSubject , .inputName {
+    background-color: #1b304d;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 20px;
+
+}
+
+.inputName , .inputEmail{
+    height: 50px;
+    width: 45%;
+    margin-right: 2%;
+    
+}
+
+.inputSubject {
+    height: 50px;
+    width: 92%;
+    margin-top: 15px;
+}
+
+.inputMessage {
+    height: 200px;
+    width: 92%;
+    margin-top: 15px;
+    padding-bottom: 150px;
+    padding-top: 10px;
+}
+
+.sendMessage {
+    height: 40px;
+    width: 150px;
+    color: #b6bfdb;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-left: 460px;
+    border: 1px solid #b6bfdb;
+    transition-duration: 0.35s;
+}
+
+.sendMessage:hover {
+    color: #0cebc9;
+    border: 1px solid #0cebc9; 
+    border: 5%;
+    cursor: pointer;
+}
+
+
 
 
 
