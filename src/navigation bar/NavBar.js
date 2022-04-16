@@ -40,11 +40,11 @@ function NavBar() {
                     <Link 
                         className='nav_items'
                         activeClass="active"
-                        to={""}
+                        to={"experiencePage"}
                         spy={true}
                         smooth={true}
-                        offset={-80}
-                        duration={500}
+                        offset={-120}
+                        duration={800}
                         key={1}
                     >
                         Experience

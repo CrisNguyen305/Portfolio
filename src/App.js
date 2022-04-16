@@ -5,6 +5,7 @@ import SideBar from './side bar/SideBar';
 import Home from './MainContent/Home/Home';
 import About from './MainContent/About/About';
 import Contact from './MainContent/Contact/Contact';
+import Experience from './MainContent/Experience/Experience';
 import { BrowserRouter, Route , Routes} from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <SideBar></SideBar>
         <Home></Home>
         <About></About>
+        <Experience></Experience>
         <Contact></Contact>
         {/* <About></About> */}
         {/* <Routes>

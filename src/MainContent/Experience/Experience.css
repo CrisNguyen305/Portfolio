@@ -1,0 +1,27 @@
+.experiencePage {
+    margin-top: 170px;
+    width: 80vw;
+    height: 100vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.experiencePage h1 {
+    color: #CCD6F6;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+.containerFirstItem {
+    /* background-color: red; */
+    width: auto;
+    height: 35%;
+    margin: 20px 10% 50px 10px;
+}
+
+.containerSecondItem {
+    /* background-color: red; */
+    width: auto;
+    height: 35%;
+    margin: 0 10% 50px 10px;
+}
