@@ -43,7 +43,7 @@ function NavBar() {
                         to={"experiencePage"}
                         spy={true}
                         smooth={true}
-                        offset={-120}
+                        offset={-180}
                         duration={800}
                         key={1}
                     >
@@ -51,7 +51,18 @@ function NavBar() {
                     </Link>
                 </li>
                 <li className="nav_items">
-                    <Link smooth to={"/about"}>Work</Link>
+                    <Link 
+                        className='nav_items'
+                        activeClass="active"
+                        to={"workPage"}
+                        spy={true}
+                        smooth={true}
+                        offset={-160}
+                        duration={800}
+                        key={1}
+                    >
+                        Work
+                    </Link>
                 </li>
                 <li className="nav_items">
                     <Link 

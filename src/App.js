@@ -6,6 +6,7 @@ import Home from './MainContent/Home/Home';
 import About from './MainContent/About/About';
 import Contact from './MainContent/Contact/Contact';
 import Experience from './MainContent/Experience/Experience';
+import Work from './MainContent/Work/Work';
 import { BrowserRouter, Route , Routes} from 'react-router-dom';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Home></Home>
         <About></About>
         <Experience></Experience>
+        <Work/>
         <Contact></Contact>
         {/* <About></About> */}
         {/* <Routes>
