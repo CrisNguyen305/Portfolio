@@ -1,9 +1,7 @@
 .workPage {
-    margin-top: 170px;
     width: 80vw;
-    height: 100vh;
-    margin-left: 15%;
-    margin-right: 15%;
+    height: 85vh;
+    margin: 170px 15% auto 15%;
 }
 
 .workPage h1 {
@@ -11,3 +9,81 @@
     font-family: 'Pacifico', cursive;
     font-size: 40px;
 }
+
+.containerWorkPage {
+    font-size: 19px;
+    width: auto;
+    height: 70%;
+    margin: 50px auto 100px auto;
+    display: grid;
+}
+
+.projectPhoto {
+    height: 100%;
+    width: fit-content;
+}
+
+.projectInfo , .projectPhoto {
+    grid-area: 1/1;
+}
+
+#_projectPhoto {
+    height: 100%;
+    width: 1000px;
+}
+
+.projectInfo {
+    background-color: transparent;
+    height: 60%;
+    width: 30%;
+    margin: 16% 10% auto auto;
+}
+
+.projectInfo #projectName {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 0;
+    color: #bdc4da;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+
+.projectOverview {
+    background-color:#112240;
+    height: 50%;
+    width: 100%;
+    margin: 20px 0px 20px auto;
+}
+
+#_listTechnologiesUsed {
+    background-color: transparent;
+    width: fit-content;
+    margin: 0 0 20px auto;
+}
+
+#_listTechnologiesUsed li{
+    display: inline;
+    margin-left: 15px;
+    color: #A0ABCA;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+}
+
+.projectLink {
+    display: flex;
+    background-color:transparent;
+    width: fit-content;
+    margin: 0 0 0 auto;
+}
+
+#iconLink {
+    color: #A0ABCA;
+    font-size: 30px;
+    transition-duration: 0.35s;
+    cursor: pointer;
+}
+
+#iconLink:hover {
+    color: #0cebc9;
+}
+

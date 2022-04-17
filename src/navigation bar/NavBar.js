@@ -57,7 +57,7 @@ function NavBar() {
                         to={"workPage"}
                         spy={true}
                         smooth={true}
-                        offset={-160}
+                        offset={-130}
                         duration={800}
                         key={1}
                     >

@@ -1,7 +1,7 @@
 .experiencePage {
     margin-top: 170px;
     width: 80vw;
-    height: 100vh;
+    height: 70vh;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -10,14 +10,15 @@
     color: #CCD6F6;
     font-family: 'Pacifico', cursive;
     font-size: 40px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .experiencePage h2 , h3 , p{
     margin-bottom: 10px;
 }
 
-.experiencePage h3, p {
+.experiencePage h3, #yearTimeExperiencePage {
+    color: #d7dae2;
     margin-left: 50px;
 }
 
@@ -26,17 +27,20 @@
 }
 
 .containerFirstItem , .containerSecondItem{
-    /* background-color: red; */
     font-family: 'Nunito', sans-serif;
     font-size: 19px;
     width: auto;
     height: 25%;
-    margin: 20px 10% 50px 10px;
+    margin: 50px 10% 100px 10px;
     color: white;
 }
 
+#listExperiencePage {
+    color: #8892B0;
+}
+
 /* .containerSecondItem {
-    margin-left: 100px;
+    margin-top: 50px;
 } */
 
 
